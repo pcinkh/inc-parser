@@ -43,7 +43,7 @@ def main():
 
     logging.info('Starting parse...')
 
-    for page in range(max_page, max_page + 1):
+    for page in range(min_page, max_page + 1):
         logging.info('Parsing page %d.', page)
 
         rows = driver.find_elements_by_css_selector(
