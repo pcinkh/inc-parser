@@ -128,7 +128,7 @@ def db_save(companies):
             ]
         )
 
-        conn.commit()
+    conn.commit()
 
 
 def db_clean():
