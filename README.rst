@@ -34,6 +34,6 @@ Run and notices:
 .. code-block:: bash
 
     # run
-    p scrap.py
+    python scrap.py
 
     # scrap.db and data will be reinitialized every time when script runs
